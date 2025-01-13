@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oksana_Te</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style/bg-video.css">
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo. Oksana_Te.png" class="logo" alt="Oksana Te">
+                <ul id="sidemenu">
+                    <li><a href="#header">Startseite</a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <i class="bi bi-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Digital Marketing</p>
+                <h1>Hi, ich bin <span>Oksana,</span><br>und ich bin für Content & Strategie zuständig</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Portrait dunkel.png" alt="Portfolio">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Über mich</h1>
+
+                    <p>Ideen zum Leben erwecken – das ist meine Leidenschaft. Ob in der Gestaltung, im Marketing oder in
+                        der IT – ich finde
+                        Freude daran, neue Wege zu gehen, komplexe Herausforderungen zu lösen und dabei authentische
+                        Ergebnisse zu schaffen.</p>
+
+                    <p> Jede Aufgabe sehe ich als Chance, etwas Besonderes zu gestalten. Ich arbeite mit dem Blick für
+                        Details, aber auch mit
+                        dem Verständnis für das große Ganze. Kreativität ist für mich kein Prozess, sondern eine Haltung
+                        – und diese Haltung
+                        bringe ich in alles ein, was ich tue.</p>
+
+                    <p>Arbeit ist für mich mehr als nur Routine – sie ist Ausdruck von Persönlichkeit und
+                        Zusammenarbeit. Freiheit, Ehrlichkeit
+                        und Wertschätzung sind Werte, die ich lebe und die mich antreiben. Ich glaube daran, dass echte
+                        Qualität entsteht, wenn
+                        Menschen das tun, was sie lieben, und ihre Talente in den Mittelpunkt stellen. So gestalte ich
+                        nicht nur Ergebnisse, sondern auch Verbindungen – zwischen Menschen, Ideen und Visionen!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Fähigkeiten')">Fähigkeiten</p>
+                        <p class="tab-links" onclick="opentab('Berufserfahrung')">Berufserfahrung</p>
+                        <p class="tab-links" onclick="opentab('Ausbildung')">Ausbildung</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Fähigkeiten">
+                        <ul>
+                            <li><span>Marketing Management</span><br>Entwicklung und Umsetzung von Marketingstrategien
+                            </li>
+                            <li><span>UI/UX Design</span><br>Erstellung von Wireframes, Prototypen und
+                                benutzerfreundlichen Interfaces</li>
+                            <li><span>Content Management</span><br>CMS-Nutzung und SEO-optimierte Texterstellung</li>
+                            <li><span>IT</span><br>Webentwicklung, Programmierkenntnisse in HTML, CSS, JavaScript,
+                                Python, KI</li>
+
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Berufserfahrung">
+                        <ul>
+                            <li><span>2020-2022</span><br>Gründerin/E-Commerce</li>
+                            <li><span>2017-2020</span><br>Content und Marketing Managerin</li>
+                            <li><span>2015-2017</span><br>Korrespondentin und Redakteurin</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Ausbildung">
+                        <ul>
+                            <li><span>2018-2021</span><br>Weiterbildung in Computergrafik und Design</li>
+                            <li><span>2017-2019</span><br>Master of Arts in Journalistik</li>
+                            <li><span>2013-2017</span><br>Bachelor of Arts in Journalistik</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Dienstleistungen -->
+
+    <div id="services">
+
+        <div class="container">
+
+            <div class="bgvideo">
+
+                <video src="images/Video.2.mp4" type="video/mp4" autoplay muted loop></video>
+
+                <div class="effect">
+
+                </div>
+                <div id="typing-text" class="video-text">
+                </div>
+            </div>
+
+            <h1 class="sub-title">Leistungen</h1>
+
+            <div class="title">
+                <p>
+                <h2>Ein Unternehmen ohne Online-Präsenz ist kein Unternehmen. Ohne Werbung gibt es keine Kunden, und
+                    ohne Kunden gibt es
+                    kein Wachstum. Der Schlüssel zum Erfolg liegt in den Menschen, die Sie erreichen. Mein Ziel ist es,
+                    Ihnen
+                    zu helfen, zu profitieren, denn nur wenn Sie erfolgreich sind, profitiere auch ich. Gemeinsam
+                    schaffen wir
+                    Wachstum und
+                    Erfolg!</h2>
+                </p>
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="bi bi-file-earmark-code"></i>
+                    <h2>Content-Management</h2>
+                    <p>Effizientere Verwaltung und Veröffentlichung von Content auf der Unternehmenswebsite</p>
+                    <a href="#contact">Mehr erfahren</a>
+                </div>
+                <div>
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h2>Online Marketing</h2>
+                    <p>Entwicklung und Durchführung von Google Ads Kampagnen</p>
+                    <a href="#contact">Mehr erfahren</a>
+                </div>
+                <div>
+                    <i class="bi bi-link-45deg"></i>
+                    <h2>Social Media Marketing und Community Management</h2>
+                    <p>Erhöhung der Markenbekanntheit und Kundenbindung über Social Media Kanäle</p>
+                    <a href="#contact">Mehr erfahren</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Porttfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Work_1.png" alt="Work">
+                    <div class="layer">
+                        <h3>Conversion-Optimierung und Landing Page Design</h3>
+                        <p>Steigerung der Conversion-Rate durch die Optimierung der Landing Pages für Ot Parfumes ua</p>
+                        <a href="https://www.instagram.com/ot_parfumes_ua/"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work_2.png" alt="Work">
+                    <div class="layer">
+                        <h3>Entwicklung und Durchführung von Google Ads Kampagnen</h3>
+                        <p>Steigerung der Conversion-Rate und Reduzierung der Kosten pro Akquise innerhalb von 4 Monaten
+                            für GLOBAL ISRAELI
+                            INITIATIVE</p>
+                        <a href="https://gii.global/"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work_3.png" alt="Work">
+                    <div class="layer">
+                        <h3>Social Media Marketing und Community Management</h3>
+                        <p>Erhöhung der Markenbekanntheit und Kundenbindung über Social Media Kanäle für The Beauty
+                            Room.</p>
+                        <a href="https://www.instagram.com/the_beauty_room_ua/"><i
+                                class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Mehr anzeigen</a>
+        </div>
+    </div>
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Kontaktieren Sie mich</h1>
+                    <p><i class="bi bi-send-fill"></i> oksanatereshchenia@gmail.com</p>
+                    <p><i class="bi bi-telephone-fill"></i> +491755186162</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/te_oksana_/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/oksana-tereshchenia-08b7892b0/"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/Oksanater95"><i class="bi bi-github"></i></a>
+                    </div>
+                    <a href="images/LL_Oksana_Tereshchenia.pdf" download class="btn btn2">Lebenslauf herunterladen</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Ihr Vorname" required>
+                        <input type="text" name="Secondname" placeholder="Ihr Nachname">
+                        <input type="email" name="email" placeholder="Ihre E-Mail Adresse" required>
+                        <textarea name="message" rows="6" placeholder="Ihre Nachricht"></textarea>
+                        <button type="submit" class="btn btn2">Absenden</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright by Oksana Te 2025 <i class="bi bi-heart-half"></i> Alle Rechte vorbehalten.</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+
+        const textElement = document.getElementById("typing-text");
+        const text = "Erfolgreiche Marken entstehen durch engagierte Menschen";
+        let index = 0;
+
+        function typeEffect() {
+            if (index < text.length) {
+                textElement.textContent += text[index];
+                index++;
+                setTimeout(typeEffect, 150);
+            } else {
+
+                setTimeout(() => {
+                    textElement.textContent = '';
+                    index = 0;
+                    typeEffect();
+                }, 5000);
+            }
+        }
+
+        typeEffect(); 
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz7dqS9Llxl4Ber_sXla1pUI139Jj35LuawUWyB2JFbsC3yd_k6sp1r2TLpxzp27emk/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Nachricht wurde erfolgreich gesendet"
+                    setTimeout(function () {
+                        msg.innerHTML = " "
+                    }, 5000)
+                    form.reset()
+
+
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
