@@ -1,3 +1,5 @@
+https://oksanater95.github.io/Oksana_te/
+
 Diese Webseite wurde mit HTML, CSS und JavaScript erstellt und nutzt zusätzlich Bootstrap Icons für eine moderne, benutzerfreundliche Oberfläche. Die Struktur ist übersichtlich und in verschiedene Sektionen unterteilt:
 
 - Startseite: Mit einem Willkommens-Header, responsiver Navigation und einem einladenden Begrüßungstext.
